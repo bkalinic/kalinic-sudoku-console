@@ -9,15 +9,38 @@ Pritom, u nijednom redu, stupcu ili podmreži ne smije se ponavljati znamenka.
 - spremanje igre u 3 različita slota
 - automatsko rješavanje ploče
 
-## Izgled igre
+## Screenshots
 ### Početni izbornik
-  ![mainMenu](
+  ![startMenu](Screenshots/startMenu.png)
 ### Glavni izbornik
-  ![mainMenu](
+  ![mainMenu](Screenshots/mainMenu.png)
 ### Autor
-  ![mainMenu](
+  ![mainMenu](Screenshots/authorMenu.png)
+### Izgled igre
+  ![mainMenu](Screenshots/gameplay.png)
 
 ## Preduvjeti
 Kako bi se igra mogla pokrenuti, potrebno je instalirati
 - C++ compiler (npr. GCC)
 - CMake
+
+## Pokretanje igre
+Igra se može pokrenuti na dva načina:
+Prvi je tako što korisnik pokreće sljedeće naredbe koristeći Command prompt
+1. Klonirati repozitorij:
+```shell
+git clone https://github.com/bkalinic/kalinic-sudoku-console.git
+```
+2. Pronaći direktorij
+```shell
+cd .//pathToDirectory//kalinic-sudoku-console
+```
+3. Buildati projekt koristeći C++ compiler
+4. Pokrenuti igru
+```shell
+./main
+```
+Drugi je tako što korisnik
+1. Preuzima projekt klikom na "Download ZIP"
+2. Raspakira ZIP i builda ga koristeći C++ compiler
+3. Pokrene igru
